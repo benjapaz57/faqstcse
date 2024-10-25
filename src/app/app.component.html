@@ -1,0 +1,75 @@
+<!-- inicia navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home" routerLinkActive="active-link">
+      <img src="../assets/home/logo-tcse.png" alt="logo" class="logo-size">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link letras-nav" routerLink="home" routerLinkActive="active-link">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letras-nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            General
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item letras-nav" routerLink="ingreso" routerLinkActive="active-link">Ingreso Ventana Unica</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="usuario" routerLinkActive="active-link">Alta de Usuario</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="recuperacion" routerLinkActive="active-link">Blanqueo de Clave</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="cambio" routerLinkActive="active-link">Reseteo de Clave</a></li>
+            <br>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letras-nav"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Organismos Locales
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item letras-nav" routerLink="comunicacion" routerLinkActive="active-link">Comunicacion y Notificaciones</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="ingresosarc" routerLinkActive="active-link">Ingreso SARC</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="formulario" routerLinkActive="active-link">Formulario de Consultas</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="biblioteca" routerLinkActive="active-link">Biblioteca Digital</a></li>
+            <br>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letras-nav"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SARC
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item letras-nav" routerLink="introsarc" routerLinkActive="active-link">Introducción</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="marconormativolegal" routerLinkActive="active-link">Marco Normativo y Legal</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="procesoplanificacionpresupuestaria" routerLinkActive="active-link">Proceso Planificación Presupuestaria</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="gestionejecucionpresupuesto" routerLinkActive="active-link">Gestion y Ejecución del Presupuesto</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="abmdatos" routerLinkActive="active-link">ABM de Datos</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="rendicionesdecuenta" routerLinkActive="active-link">Rendiciones de Cuenta</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="admrecursos" routerLinkActive="active-link">Administración de Recursos</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="presentacionrendicion" routerLinkActive="active-link">Presentación de Rendición</a></li>
+            <hr>
+            <li><a class="dropdown-item letras-nav" routerLink="faqssarc" routerLinkActive="active-link">FAQS SARC</a></li>
+            <br>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+.videos-responsive{
+    width: 60%;
+}
+@media (max-width: 1360px) {
+    .videos-responsive{
+    width: 100%;
+}
+}

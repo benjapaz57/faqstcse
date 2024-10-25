@@ -1,0 +1,23 @@
+.videos-responsive{
+    width: 60%;
+}
+@media (max-width: 1360px) {
+    .videos-responsive{
+    width: 100%;
+}
+}
+@media (min-width: 300px) and (max-width: 1300px) {
+    .carousel-vu{
+        display: none;
+    }
+    .instrucciones{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+  
+  
