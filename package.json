@@ -1,12 +1,17 @@
 {
-  "name": "my-app",
+  "name": "faqstcse",
   "version": "1.0.0",
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.10"
+  },
+  "dependencies": {
+    "@angular/core": "^18.2.9"
+  }
 }
