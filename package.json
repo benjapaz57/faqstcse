@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.10"
+    "@angular-devkit/build-angular": "^18.2.10",
+    "@angular/cli": "^18.2.10"
   },
   "dependencies": {
     "@angular/core": "^18.2.9"
