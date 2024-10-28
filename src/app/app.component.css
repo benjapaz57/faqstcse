@@ -1,8 +1,24 @@
+.navegador{
+    background-color: #58073e4d !important;
+}
+.navegador ul li a:hover{
+    color: white;
+}
 .logo-size{
-    width: 140px;
-    margin: 20px;
+    width: 120px;
 }
 .letras-nav{
     font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.navegador-lista a:hover{
+    background-color: #58073e4d !important;
+    color: white;
+}
+.contenido{
     margin: 10px;
+}
+.footerr:hover{
+    color: white;
 }

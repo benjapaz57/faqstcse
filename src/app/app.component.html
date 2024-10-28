@@ -1,5 +1,5 @@
 <!-- inicia navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-1 navegador">
   <div class="container-fluid">
     <a class="navbar-brand" routerLink="home" routerLinkActive="active-link">
       <img src="../assets/home/logo-tcse.png" alt="logo" class="logo-size">
@@ -16,7 +16,7 @@
           <a class="nav-link dropdown-toggle letras-nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             General
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu navegador-lista">
             <li><a class="dropdown-item letras-nav" routerLink="ingreso" routerLinkActive="active-link">Ingreso Ventana Unica</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="usuario" routerLinkActive="active-link">Alta de Usuario</a></li>
@@ -31,7 +31,7 @@
           <a class="nav-link dropdown-toggle letras-nav"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Organismos Locales
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu navegador-lista">
             <li><a class="dropdown-item letras-nav" routerLink="comunicacion" routerLinkActive="active-link">Comunicacion y Notificaciones</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="ingresosarc" routerLinkActive="active-link">Ingreso SARC</a></li>
@@ -46,7 +46,7 @@
           <a class="nav-link dropdown-toggle letras-nav"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
             SARC
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu navegador-lista">
             <!-- <li><a class="dropdown-item letras-nav" routerLink="introsarc" routerLinkActive="active-link">Introducción</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="marconormativolegal" routerLinkActive="active-link">Marco Normativo y Legal</a></li>
@@ -60,12 +60,10 @@
             <li>
               <a class="dropdown-item letras-nav" routerLink="rendicionesdecuenta" routerLinkActive="active-link">Rendiciones de Cuenta</a>
               <ul>
-                <li>
+                <div>
                   <a class="dropdown-item letras-nav" routerLink="transferencia" routerLinkActive="active-link">Transferencia</a>
-                </li>
-                <li>
                   <a class="dropdown-item letras-nav" routerLink="ordendepago" routerLinkActive="active-link">Orden de Pago</a>
-                </li>
+                </div>
               </ul>
             </li>
             <!-- <hr> -->
@@ -81,5 +79,9 @@
     </div>
   </div>
 </nav>
-
-<router-outlet></router-outlet>
+<main class="contenido">
+  <router-outlet></router-outlet>
+</main>
+<h6 class="text-center p-2 navegador footer mt-2 mb-0 p-3 footerr">
+  Derechos reservados al Tribunal de Cuentas de la Provincia de Santiago del Estero
+</h6>
