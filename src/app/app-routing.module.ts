@@ -19,6 +19,8 @@ import { RendicionesdecuentaComponent } from './components/sarc/rendicionesdecue
 import { AdmderecursosComponent } from './components/sarc/admderecursos/admderecursos.component';
 import { PresentacionderendicionComponent } from './components/sarc/presentacionderendicion/presentacionderendicion.component';
 import { FaqsarcComponent } from './components/sarc/faqsarc/faqsarc.component';
+import { TransferenciaComponent } from './components/sarc/rendicionesdecuenta/transferencia/transferencia.component';
+import { OrdendepagoComponent } from './components/sarc/rendicionesdecuenta/ordendepago/ordendepago.component';
 
 
 const routes: Routes = [
@@ -45,6 +47,8 @@ const routes: Routes = [
   { path: 'admrecursos', component: AdmderecursosComponent},
   { path: 'presentacionrendicion', component: PresentacionderendicionComponent},
   { path: 'faqssarc', component: FaqsarcComponent},
+  { path: 'transferencia', component: TransferenciaComponent},
+  { path: 'ordendepago', component: OrdendepagoComponent},
   //PageNotFound Component
   { path: '**', component: PagenotfoundComponent}
 ];

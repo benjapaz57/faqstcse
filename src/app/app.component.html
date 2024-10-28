@@ -47,7 +47,7 @@
             SARC
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item letras-nav" routerLink="introsarc" routerLinkActive="active-link">Introducción</a></li>
+            <!-- <li><a class="dropdown-item letras-nav" routerLink="introsarc" routerLinkActive="active-link">Introducción</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="marconormativolegal" routerLinkActive="active-link">Marco Normativo y Legal</a></li>
             <hr>
@@ -56,15 +56,25 @@
             <li><a class="dropdown-item letras-nav" routerLink="gestionejecucionpresupuesto" routerLinkActive="active-link">Gestion y Ejecución del Presupuesto</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="abmdatos" routerLinkActive="active-link">ABM de Datos</a></li>
-            <hr>
-            <li><a class="dropdown-item letras-nav" routerLink="rendicionesdecuenta" routerLinkActive="active-link">Rendiciones de Cuenta</a></li>
-            <hr>
-            <li><a class="dropdown-item letras-nav" routerLink="admrecursos" routerLinkActive="active-link">Administración de Recursos</a></li>
+            <hr> -->
+            <li>
+              <a class="dropdown-item letras-nav" routerLink="rendicionesdecuenta" routerLinkActive="active-link">Rendiciones de Cuenta</a>
+              <ul>
+                <li>
+                  <a class="dropdown-item letras-nav" routerLink="transferencia" routerLinkActive="active-link">Transferencia</a>
+                </li>
+                <li>
+                  <a class="dropdown-item letras-nav" routerLink="ordendepago" routerLinkActive="active-link">Orden de Pago</a>
+                </li>
+              </ul>
+            </li>
+            <!-- <hr> -->
+            <!-- <li><a class="dropdown-item letras-nav" routerLink="admrecursos" routerLinkActive="active-link">Administración de Recursos</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="presentacionrendicion" routerLinkActive="active-link">Presentación de Rendición</a></li>
             <hr>
             <li><a class="dropdown-item letras-nav" routerLink="faqssarc" routerLinkActive="active-link">FAQS SARC</a></li>
-            <br>
+            <br> -->
           </ul>
         </li>
       </ul>
