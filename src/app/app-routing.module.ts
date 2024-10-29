@@ -10,15 +10,7 @@ import { FormularioComponent } from './components/organismos/formulario/formular
 import { IngresosarcComponent } from './components/organismos/ingresosarc/ingresosarc.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { UsuarioComponent } from './components/general/usuario/usuario.component';
-import { IntroduccionComponent } from './components/sarc/introduccion/introduccion.component';
-import { MarconormativolegalComponent } from './components/sarc/marconormativolegal/marconormativolegal.component';
-import { ProcesoplanificacionpresupuestariaComponent } from './components/sarc/procesoplanificacionpresupuestaria/procesoplanificacionpresupuestaria.component';
-import { GestionejecucionpresupuestoComponent } from './components/sarc/gestionejecucionpresupuesto/gestionejecucionpresupuesto.component';
-import { AbmdatosComponent } from './components/sarc/abmdatos/abmdatos.component';
 import { RendicionesdecuentaComponent } from './components/sarc/rendicionesdecuenta/rendicionesdecuenta.component';
-import { AdmderecursosComponent } from './components/sarc/admderecursos/admderecursos.component';
-import { PresentacionderendicionComponent } from './components/sarc/presentacionderendicion/presentacionderendicion.component';
-import { FaqsarcComponent } from './components/sarc/faqsarc/faqsarc.component';
 import { TransferenciaComponent } from './components/sarc/rendicionesdecuenta/transferencia/transferencia.component';
 import { OrdendepagoComponent } from './components/sarc/rendicionesdecuenta/ordendepago/ordendepago.component';
 
@@ -38,15 +30,7 @@ const routes: Routes = [
   { path: 'formulario', component: FormularioComponent},
   { path: 'ingresosarc', component: IngresosarcComponent},
   //SARC components
-  { path: 'introsarc', component: IntroduccionComponent},
-  { path: 'marconormativolegal', component: MarconormativolegalComponent},
-  { path: 'procesoplanificacionpresupuestaria', component: ProcesoplanificacionpresupuestariaComponent},
-  { path: 'gestionejecucionpresupuesto', component: GestionejecucionpresupuestoComponent},
-  { path: 'abmdatos', component: AbmdatosComponent},
   { path: 'rendicionesdecuenta', component: RendicionesdecuentaComponent},
-  { path: 'admrecursos', component: AdmderecursosComponent},
-  { path: 'presentacionrendicion', component: PresentacionderendicionComponent},
-  { path: 'faqssarc', component: FaqsarcComponent},
   { path: 'transferencia', component: TransferenciaComponent},
   { path: 'ordendepago', component: OrdendepagoComponent},
   //PageNotFound Component
