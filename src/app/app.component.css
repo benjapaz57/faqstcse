@@ -21,15 +21,20 @@
     color: white;
 }
 .contenido{
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footerr:hover{
     color: white;
 }
 
 
-@media (max-width: 800px){
-    .banner-responsive{
-        width: 100vw;
-    }
+@media (max-width: 1300px){
+    /* .banner-responsive{
+        width: 100%;
+    } */
+    /* .contenido{
+        height: 100vh;
+    } */
 } 

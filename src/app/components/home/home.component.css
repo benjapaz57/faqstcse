@@ -6,3 +6,23 @@
     width: 100%;
 }
 }
+@media (max-width: 500px){
+    .contenido-home{
+        height: 70vh;
+    }
+}
+@media (max-width: 800px){
+    .contenido-home{
+        height: 75vh;
+    }
+}
+@media (max-width: 1000px){
+    .contenido-home{
+        height: 85vh;
+    }
+}
+@media (max-width: 1400px){
+    .contenido-home{
+        height: 100vh;
+    }
+}
