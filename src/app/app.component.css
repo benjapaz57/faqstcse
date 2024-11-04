@@ -30,11 +30,18 @@
 }
 
 
-@media (max-width: 1300px){
-    /* .banner-responsive{
-        width: 100%;
-    } */
-    /* .contenido{
-        height: 100vh;
-    } */
+@media (min-width: 400px) and (max-width: 1000px){
+    .footerr{
+        font-size: 20px;
+    }
+} 
+@media (min-width: 750px) and (max-width: 1050px){
+    .footerr{
+        font-size: 25px;
+    }
+} 
+@media (min-width: 1051px){
+    .footerr{
+        font-size: 22px;
+    }
 } 

@@ -1,11 +1,7 @@
 .videos-responsive{
     width: 60%;
 }
-@media (max-width: 1360px) {
-    .videos-responsive{
-    width: 100%;
-}
-}
+
 @media (max-width: 500px){
     .contenido-home{
         height: 70vh;
@@ -20,6 +16,11 @@
     .contenido-home{
         height: 85vh;
     }
+}
+@media (max-width: 1360px) {
+    .videos-responsive{
+    width: 100%;
+}
 }
 @media (max-width: 1400px){
     .contenido-home{
