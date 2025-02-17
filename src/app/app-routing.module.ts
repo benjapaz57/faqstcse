@@ -13,7 +13,9 @@ import { UsuarioComponent } from './components/general/usuario/usuario.component
 import { RendicionesdecuentaComponent } from './components/sarc/rendicionesdecuenta/rendicionesdecuenta.component';
 import { TransferenciaComponent } from './components/sarc/rendicionesdecuenta/transferencia/transferencia.component';
 import { OrdendepagoComponent } from './components/sarc/rendicionesdecuenta/ordendepago/ordendepago.component';
-
+import { SigepComponent } from './components/orgprovinciales/sigep/sigep.component';
+import { ConsultaComponent } from './components/orgprovinciales/consulta/consulta.component';
+import { AnticipoComponent } from './components/orgprovinciales/anticipo/anticipo.component';
 
 const routes: Routes = [
   //Inicio Component
@@ -33,8 +35,13 @@ const routes: Routes = [
   { path: 'rendicionesdecuenta', component: RendicionesdecuentaComponent},
   { path: 'transferencia', component: TransferenciaComponent},
   { path: 'ordendepago', component: OrdendepagoComponent},
+  //Provinciales
+  { path: 'sigep', component: SigepComponent},
+  { path: 'consulta', component: ConsultaComponent},
+  { path: 'anticipo', component: AnticipoComponent},
   //PageNotFound Component
   { path: '**', component: PagenotfoundComponent}
+
 ];
 
 @NgModule({
